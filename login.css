@@ -1,0 +1,135 @@
+/*
+Theme Name: LOGIN CSS
+Theme URI: http://www.houtlyn.com.br/projetos
+Author: Gabriel Andreazza - Houtlyn
+Author URI: http://www.houtlyn.com.br
+Description: CSS PARA SCREEN LOGIN
+*/
+
+body.login {
+  background-image: url('https://images.pexels.com/photos/933054/pexels-photo-933054.jpeg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  height: 100%;
+}
+
+
+.login h1 a {
+  background-image: url('images/OFICIAL.png');
+}
+
+.login label {
+  font-size: 14px;
+  color: #fff;
+}
+
+.login input[type="text"]{
+  margin-top: 5px;
+    display: inline-block;
+   -webkit-box-sizing: content-box;
+   -moz-box-sizing: content-box;
+   box-sizing: content-box;
+   padding: 3px 20px;
+   -webkit-border-radius: 50px;
+   border-radius: 50px;
+   color: rgba(255,255,255,1);
+   -o-text-overflow: clip;
+   text-overflow: clip;
+   background: rgba(102,102,102,0.28);
+   width: 85%;
+ }
+
+.login input[type="password"]{
+  margin-top: 5px;
+    display: inline-block;
+   -webkit-box-sizing: content-box;
+   -moz-box-sizing: content-box;
+   box-sizing: content-box;
+   padding: 3px 20px;
+   -webkit-border-radius: 50px;
+   border-radius: 50px;
+   color: rgba(255,255,255,1);
+   -o-text-overflow: clip;
+   text-overflow: clip;
+   background: rgba(102,102,102,0.28);
+   width: 85%;
+}
+
+
+
+.login .button-primary {
+      margin-top: 25px;
+      font-size: 15px;
+      line-height: 1.5;
+      color: #fff;
+      text-transform: uppercase;
+      width: 100%;
+      height: 50px;
+      border-radius: 25px;
+      background: #17a8e3;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 5px 25px;
+      -webkit-transition: all 0.4s;
+      -o-transition: all 0.4s;
+      -moz-transition: all 0.4s;
+      transition: all 0.4s;
+}
+
+.login .button-primary:hover {
+  background-color:#17a8e3 !important;
+  color: #fff;
+  -webkit-border-radius: 4px;
+  border: 1px solid #17a8e3;
+}
+
+.login .button-primary:active {
+  background-color:#17a8e3 !important;
+  color: #fff;
+  -webkit-border-radius: 4px;
+  border: 1px solid #17a8e3;
+  color: #fff;
+  -webkit-border-radius: 4px;
+  border: 1px solid #17a8e3;
+}
+
+
+p#nav {
+  display: none;
+}
+
+p#backtoblog {
+  display: none;
+}
+
+.login form{
+  background-color: rgba(0, 0, 0, 0.26);
+  box-shadow: rgba(101, 101, 101, 0.62);
+}
+
+.login #login_error{
+  background-color: rgba(0, 0, 0, 0.26);
+  color: #fff;
+}
+
+.login .message{
+  background-color: rgba(0, 0, 0, 0.26);
+  color: #fff;
+}
+
+.login #login_remember{
+  margin-top: 10px;
+  background-color: rgba(0, 0, 0, 0.26);
+  color: #fff;
+  border-left-color: #dc3232;
+  border-left: 4px solid #0b9444;
+  padding: 12px;
+  margin-left: 0;
+  margin-bottom: 20px;
+}

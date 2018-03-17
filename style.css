@@ -1,0 +1,158 @@
+body {
+  background-image: url('images/BLACKBOARD.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: Lato;
+  color: #fff;
+}
+
+
+.box_border{
+    border-top: 5px solid #299035;
+}
+
+
+.box_City {
+  background-color: rgba(0,0,0,0.43);
+  padding: 10px;
+  box-shadow: 0px 10px 8px #000;
+  text-align: center;
+  width: auto;
+  height: 170px;
+}
+
+.box_City:hover{
+  background-image: url(images/italy.png);
+  opacity: 0.1;
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: #000;
+}
+
+.box_City h3{
+  margin-top: 10%
+}
+
+
+.box_City_bg_1{
+  background-image: url(images/timbo.jpg);
+  background-color: rgba(0,0,0,0.8);
+  background-blend-mode: darken;
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.box_City_bg_2{
+  background-image: url(images/rdc.jpg);
+  background-color: rgba(0,0,0,0.8);
+  background-blend-mode: darken;
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+a.complete_div {
+  display: block;
+  height: 100%;
+  width: 100%;
+  text-decoration: none;
+  color: #fff;
+}
+
+.header{
+  width: auto;
+  color: #fff;
+}
+
+.header h1 {
+  font-size: 50px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.header p{
+  font-size: 20px;
+}
+
+.header a{
+  text-decoration: none;
+  font-weight: bold;
+  color: #299035;
+}
+
+.header_sociais{
+
+}
+
+.header_sociais a{
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+}
+
+
+
+.box_cardapio_border{
+    border-top: 5px solid #299035;
+}
+
+
+.box_cardapio {
+  background-color: rgba(0,0,0,0.43);
+  padding: 10px;
+  box-shadow: 0px 10px 8px #000;
+  text-align: center;
+  width: auto;
+  height: 170px;
+  margin-top: 40px;
+}
+
+.box_cardapio:hover{
+  background-image: url(images/italy.png);
+  opacity: 0.1;
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: #000;
+}
+
+.cardapio_margins-left{
+  margin-left: 20px;
+}
+
+.footerHoutlyn{
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100px;
+}
+
+.footerHoutlyn img{
+  width: auto;
+  height: 50px;
+  margin-top: 15px;
+  text-align: center;
+}
+
+
+.copyFooter{
+  text-align: center;
+}
