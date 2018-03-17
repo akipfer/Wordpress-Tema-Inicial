@@ -20,4 +20,16 @@ Wordpress - Tema inicial para a criação de projetos.
 ###
 ###
 ###
-**UPDATES:** ? não sei. 
+# Arquivos iclusos
++ functions.php     // (BASE EM TESTES)
++ header.php        // (BASE PRONTA)
++ footer.php        // (BASE PRONTA)
++ page.php          // (EM PRODUÇÃO)
++ page-example.php  // (EM PRODUÇÃO) >> OBS: Essa página serve para gerenciar modelos dentro do painel do wordpress. 
++ index.php         // (PRODUÇÃO E TESTE) >> Página 'obrigatória' para o wordpress.
++ style.css         // >> Arquivo css para edição geral do blog, site.
++ login.css         // >> Arquivo css para edição da página de login do wordpress.
+#
+#
+#
+**UPDATES:** ...
