@@ -1,21 +1,34 @@
 <?php
-if ( ! function_exists( 'Houtlyn_setup' ) ) : /* TROCAR O NOME HOUTLYN PELO TEMA QUE SERÁ FEIOT */
+/*
+* CRIADO POR: Gabriel Andreazza
+* CUIDADO COM ESSA PÁGINA, ELA É CRUCIAL PARA O WORDPRESS.
+* 
+* SOCIAIS
+* > www.behance.net/dshy
+* > www.houtlyn.com.br
+*
+* LEMBRE-SE: ESSA PÁGINA ESTÁ EM DESENVOLVIMENTO, E PODE CONTER PROBLEMAS
+* 
+*/
+
+
+if ( ! function_exists( 'Houtlyn_setup' ) ) : /* TROCAR O NOME HOUTLYN PELO TEMA QUE SERÁ FEITO (trocar em todo o functions.php) */
 
 function Houtlyn_setup() {
 
     /*
-     * Make theme available for translation.
-     * Translations can be filed in the /languages/ directory.
+     * Ver se o tema tem raduções
+     * Traduções podem ser encontradas em /languages/ directory.
      */
-    /* Pinegrow generated Load Text Domain Begin */
+    /*  DSHY1 gerando o domínio do texto inicial*/
     load_theme_textdomain( 'Houtlyn', get_template_directory() . '/languages' );
-    /* Pinegrow generated Load Text Domain End */
+    /* DSHY1 gerando o domínio do texto final */
 
     // Add default posts and comments RSS feed links to head.
     add_theme_support( 'automatic-feed-links' );
 
     /*
-     * Let WordPress manage the document title.
+     * Deixe o WordPress gerenciar o título do documento.
      */
     add_theme_support( 'title-tag' );
 
