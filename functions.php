@@ -7,7 +7,7 @@
 * > www.behance.net/dshy
 * > www.houtlyn.com.br
 *
-* LEMBRE-SE: ESSA PÁGINA ESTÁ EM DESENVOLVIMENTO, E PODE CONTER PROBLEMAS
+* LEMBRE-SE: ESSA PÁGINA ESTÁ EM DESENVOLVIMENTO, E PODE CONTER FALHAS
 * 
 */
 
@@ -17,12 +17,12 @@ if ( ! function_exists( 'Houtlyn_setup' ) ) : /* TROCAR O NOME HOUTLYN PELO TEMA
 function Houtlyn_setup() {
 
     /*
-     * Ver se o tema tem raduções
-     * Traduções podem ser encontradas em /languages/ directory.
+     * Ver se o tema tem traduções
+     * Traduções podem ser encontradas em /languages/directory.
      */
     /*  DSHY1 gerando o domínio do texto inicial*/
     load_theme_textdomain( 'Houtlyn', get_template_directory() . '/languages' );
-    /* DSHY1 gerando o domínio do texto final */
+    /* Houtlyn gerando o domínio do texto final */
 
     // Add default posts and comments RSS feed links to head.
     add_theme_support( 'automatic-feed-links' );
